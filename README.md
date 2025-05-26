@@ -1,6 +1,6 @@
-# A Deep Learning Approach for Culture-Free Bacterial Meningitis Diagnosis and ICU Outcome Prediction
+# Contextualized Biomedical Language Processing Enhances ICU Survival Prediction
 
-This repository contains the code and data processing scripts supporting the study described in our recently submitted manuscript. Our work focuses on accelerating the diagnosis of bacterial meningitis and improving survival predictions for patients admitted to the intensive care unit (ICU) with suspected neuroinfectious diseases. This framework leverages both structured and unstructured data extracted from the MIMIC database to build and validate predictive machine learning models.
+This repository contains the code and data processing scripts supporting the study described in our recently submitted manuscript. Our work focuses on accelerating the diagnosis of bacterial meningitis and improving survival predictions for patients admitted to the intensive care unit (ICU) with suspected neuroinfectious diseases. This framework leverages both structured and unstructured data extracted from the MIMIC and eICU database to build and validate predictive machine learning models.
 
 ## Project Overview
 
@@ -13,7 +13,7 @@ Traditional cerebrospinal fluid (CSF) culture—an essential diagnostic tool for
 This repository is organized into five main sections:
 
 1. **Data Extraction:**  
-   - Scripts for extracting structured and unstructured data from the MIMIC database.
+   - Scripts for extracting structured and unstructured data from the MIMIC and eICU database.
 
 2. **Data Preprocessing:**  
    - Procedures for handling missing values, outliers, and other data quality issues.  
@@ -55,7 +55,7 @@ For a complete list of all dependencies, please refer to the `installed_packages
 ---
 
 - This README provides an organized and polished summary of the project’s objectives, data handling procedures, modeling strategies, and dependencies. It supplements our academic paper and serves as a guide to the code and analyses we performed.
-=======
+
 # CNS Model Code
 1. In the procedure code, aim1 refers to the prediction of a positive or negative CSF bacterial culture; aim2 refers to the prediction of the patient's hospital outcome.
 2. Drawing upon clinical practice, authoritative references, and ICD documentation, we have redefined the labeling of positive and negative CSF bacterial cultures to reflect whether a patient is diagnosed with bacterial meningitis. This newly established model possesses greater practical relevance and coherence.
